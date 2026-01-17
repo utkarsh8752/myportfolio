@@ -34,10 +34,10 @@ function Navbar() {
         </Link>
 
         <Link
-          to="/portfolio"
+          to="/Projects"
           className="text-gray-800 hover:text-blue-600 font-semibold transition-all text-lg"
         >
-          Portfolio
+          projects
         </Link>
 
         <Link
