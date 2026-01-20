@@ -11,6 +11,7 @@ function Navbar() {
                       rounded-b-2xl
                       sticky top-0 z-50
                       backdrop-blur-md bg-white/60">
+                        <h1>portfolio</h1>
 
         <Link
           to="/"

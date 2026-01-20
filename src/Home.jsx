@@ -1,3 +1,4 @@
+
 import { FaFacebookF, FaInstagram, FaWhatsapp, FaGithub } from "react-icons/fa";
 
 export default function Home() {
@@ -90,20 +91,21 @@ export default function Home() {
 
         {/* CTA BUTTONS */}
         <div className="flex gap-4 mt-8 flex-wrap">
-          <a
-            href="#projects"
-            className="px-8 py-3 rounded-full bg-blue-500 hover:bg-blue-600 font-semibold text-lg shadow-lg transition-all hover:scale-105"
-          >
-            View Projects
-          </a>
+  <Link
+    to="/#"
+    className="px-8 py-3 rounded-full bg-blue-500 hover:bg-blue-600 font-semibold text-lg shadow-lg transition-all hover:scale-105"
+  >
+    View Projects
+  </Link>
 
-          <a
-            href="#contact"
-            className="px-8 py-3 rounded-full border-2 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white font-semibold text-lg transition-all hover:scale-105"
-          >
-            Contact Me
-          </a>
-        </div>
+  <a
+    href="#"
+    className="px-8 py-3 rounded-full border-2 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white font-semibold text-lg transition-all hover:scale-105"
+  >
+    Contact Me
+  </a>
+</div>
+
       </div>
 
       {/* RIGHT IMAGE */}
