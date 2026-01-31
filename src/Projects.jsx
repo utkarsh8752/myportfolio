@@ -7,8 +7,8 @@ const projectsData = [
     "App built with HTML, CSS, and JavaScript that fetches real-time weather data using an API. It shows temperature, weather condition, humidity, and wind speed for any searched city.",
   tech: ["HTML", "CSS", "JavaScript", "API"],
   image: "/project2.png",
-  github: "https://github.com/utkarsh8752",
-  live: "#",
+  github: "https://github.com/utkarsh8752/weather-app",
+  live: "https://weather-application-from-city.netlify.app/",
 },
 
   {
@@ -17,7 +17,7 @@ const projectsData = [
       "A personal portfolio website built using React and Tailwind CSS.",
     tech: ["React", "Tailwind", "JavaScript"],
     image: "/project1.png",
-    github: "https://github.com/utkarsh8752",
+    github: "https://github.com/utkarsh8752/myportfolio",
     live: "https://myportfolio-zeta-livid-76.vercel.app/",
   },
   
