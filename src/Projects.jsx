@@ -2,16 +2,7 @@ import React from "react";
 
 const projectsData = [
   {
-    title: "Portfolio Website",
-    description:
-      "A personal portfolio website built using React and Tailwind CSS.",
-    tech: ["React", "Tailwind", "JavaScript"],
-    image: "/project1.png",
-    github: "https://github.com/utkarsh8752",
-    live: "#",
-  },
-  {
-    title: "Food Delivery App",
+    title: "Weather App",
     description:
       "Modern food delivery UI with responsive design and animations.",
     tech: ["React", "CSS", "API"],
@@ -20,10 +11,20 @@ const projectsData = [
     live: "#",
   },
   {
-    title: "Contact Form",
+    title: "Portfolio Website",
+    description:
+      "A personal portfolio website built using React and Tailwind CSS.",
+    tech: ["React", "Tailwind", "JavaScript"],
+    image: "/project1.png",
+    github: "https://github.com/utkarsh8752",
+    live: "https://myportfolio-zeta-livid-76.vercel.app/",
+  },
+  
+  {
+    title: "Blog Creater",
     description:
       "Contact form integrated with Formspree for email submissions.",
-    tech: ["React", "Formspree"],
+    tech: ["React", "NodeJs","MongoDB"],
     image: "/project3.png",
     github: "https://github.com/utkarsh8752",
     live: "#",

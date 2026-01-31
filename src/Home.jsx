@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 import { FaFacebookF, FaInstagram, FaWhatsapp, FaGithub } from "react-icons/fa";
 
 export default function Home() {
@@ -92,14 +92,14 @@ export default function Home() {
         {/* CTA BUTTONS */}
         <div className="flex gap-4 mt-8 flex-wrap">
   <Link
-    to="/#"
+    to="/projects"
     className="px-8 py-3 rounded-full bg-blue-500 hover:bg-blue-600 font-semibold text-lg shadow-lg transition-all hover:scale-105"
   >
     View Projects
   </Link>
 
   <a
-    href="#"
+    href="contact"
     className="px-8 py-3 rounded-full border-2 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white font-semibold text-lg transition-all hover:scale-105"
   >
     Contact Me
@@ -110,11 +110,11 @@ export default function Home() {
 
       {/* RIGHT IMAGE */}
       <div className="mt-12 lg:mt-0 relative">
-        <div className="relative p-4 rounded-xl bg-blue-900/40 shadow-[0_0_50px_20px_rgba(0,120,255,0.5)] animate-floating">
+        <div className="relative p-4 rounded-full bg-blue-900/40 shadow-[0_0_50px_20px_rgba(0,120,255,0.5)] animate-floating">
           <img
             src="/myimage1.jpg"
             alt="Utkarsh Mishra"
-            className="w-72 h-72 lg:w-80 lg:h-80 object-cover rounded-xl border-4 border-blue-400 shadow-2xl"
+            className="w-72 h-72 lg:w-80 lg:h-80 object-cover rounded-full border-4 border-blue-400 shadow-2xl"
           />
         </div>
 
