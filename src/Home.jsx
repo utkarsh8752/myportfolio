@@ -99,7 +99,7 @@ export default function Home() {
   </Link>
 
   <a
-    href="contact"
+    href="/contact"
     className="px-8 py-3 rounded-full border-2 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white font-semibold text-lg transition-all hover:scale-105"
   >
     Contact Me
