@@ -98,12 +98,12 @@ export default function Home() {
     View Projects
   </Link>
 
-  <a
-    href="/contact"
+  <Link
+    to="/contact"
     className="px-8 py-3 rounded-full border-2 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white font-semibold text-lg transition-all hover:scale-105"
   >
     Contact Me
-  </a>
+  </Link>
 </div>
 
       </div>

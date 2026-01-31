@@ -2,14 +2,15 @@ import React from "react";
 
 const projectsData = [
   {
-    title: "Weather App",
-    description:
-      "Modern food delivery UI with responsive design and animations.",
-    tech: ["React", "CSS", "API"],
-    image: "/project2.png",
-    github: "https://github.com/utkarsh8752",
-    live: "#",
-  },
+  title: "Weather App",
+  description:
+    "App built with HTML, CSS, and JavaScript that fetches real-time weather data using an API. It shows temperature, weather condition, humidity, and wind speed for any searched city.",
+  tech: ["HTML", "CSS", "JavaScript", "API"],
+  image: "/project2.png",
+  github: "https://github.com/utkarsh8752",
+  live: "#",
+},
+
   {
     title: "Portfolio Website",
     description:
@@ -21,14 +22,15 @@ const projectsData = [
   },
   
   {
-    title: "Blog Creater",
-    description:
-      "Contact form integrated with Formspree for email submissions.",
-    tech: ["React", "NodeJs","MongoDB"],
-    image: "/project3.png",
-    github: "https://github.com/utkarsh8752",
-    live: "#",
-  },
+  title: "Blog Creator",
+  description:
+    "A Blog Creator app that allows users to create, view, and manage blog posts. It stores post data like title, content, and author, and displays all posts dynamically.",
+  tech: ["React", "Node.js", "MongoDB"],
+  image: "/project3.png",
+  github: "https://github.com/utkarsh8752",
+  live: "#",
+},
+
 ];
 
 function Projects() {

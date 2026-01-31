@@ -35,7 +35,7 @@ function Navbar() {
         </Link>
 
         <Link
-          to="/Projects"
+          to="/projects"
           className="text-gray-800 hover:text-blue-600 font-semibold transition-all text-lg"
         >
           projects
